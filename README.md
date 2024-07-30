@@ -1,2 +1,2 @@
 ## The phonebook
-    Live at https://phonebook-mac-dev1.fly.dev/
+    Live at [fly.io](https://phonebook-mac-dev1.fly.dev/)
