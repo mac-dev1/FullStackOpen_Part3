@@ -1,7 +1,17 @@
+### GET ALL
+GET http://localhost:3001/api/persons/
+
+### GET ONE
+GET http://localhost:3001/api/persons/66acf0c8000d0b73569bf2b4
+
+### CREATE ONE
 POST http://localhost:3001/api/persons/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Mauri",
+    "name": "Mauri3",
     "number": 123456
 }
+
+### DELETE ONE
+DELETE http://localhost:3001/api/persons/66ad0fbf0e4ae9f25c7b65a2
