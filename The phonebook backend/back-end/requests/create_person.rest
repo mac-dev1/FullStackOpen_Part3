@@ -2,7 +2,7 @@
 GET http://localhost:3001/api/persons/
 
 ### GET ONE
-GET http://localhost:3001/api/persons/66acf0c8000d0b73569bf2b4
+GET http://localhost:3001/api/persons/66ad11976ae693c9c1a02138
 
 ### CREATE ONE
 POST http://localhost:3001/api/persons/ HTTP/1.1
@@ -14,4 +14,13 @@ content-type: application/json
 }
 
 ### DELETE ONE
-DELETE http://localhost:3001/api/persons/66ad0fbf0e4ae9f25c7b65a2
+DELETE http://localhost:3001/api/persons/66ad11976ae693c9c1a02138
+
+### MODIFY ONE
+PUT http://localhost:3001/api/persons/66ad11976ae693c9c1a02138
+Content-Type: application/json
+
+{
+    "name": "Mauri3",
+    "number": 654321
+}
